@@ -8,6 +8,12 @@
     margin-right: auto;
 }
 
+.middle-container {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .banner {
     background: #FBFBFB;
 }
@@ -31,7 +37,17 @@
     font-size: 60px;
     line-height: 73px;
     color: #000000;
+}
 
+.main-midle{
+    padding: unset;
+    display: block;
+    height: 100%;
+    width: 100%;
+    content: " ";
+    background: no-repeat url("../img/image 1.svg");
+    background-size: contain;
+    background-clip: content-box;
 }
 
 .main-header::after {
@@ -40,11 +56,11 @@
     width: 70px;
     height: 70px;
     content: " ";
-    background: url("../img/image 6.svg");
+    background:  url("../img/image 6.svg");
     background-size: contain;
 }
 
-.established {
+.midle-header {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -54,7 +70,7 @@
     padding: 30px;
 }
 
-.established2 {
+.middle-text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -64,7 +80,7 @@
     padding: 1px 30px;
 }
 
-.foot-date{
+.middle-date {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -74,7 +90,7 @@
     padding: 20px 30px;
 }
 
-.Read-more{
+.read-more {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -99,11 +115,17 @@
     .container {
         width: 680px;
     }
+    .middle-container{
+        width: 680px;
+    }
 }
 
 
 @media (min-width: 992px) {
     .container {
+        width: 900px;
+    }
+    .middle-container{
         width: 900px;
     }
 
@@ -114,6 +136,9 @@
 
 @media (min-width: 1280px) {
     .container {
+        width: 1170px;
+    }
+    .middle-container{
         width: 1170px;
     }
 }
